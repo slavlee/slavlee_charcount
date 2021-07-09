@@ -1,0 +1,3 @@
+Version 1.0.0
+- [NEW] Implementierung FrontendPlugin mit Textfeld und Anzeige der Anzahl der Zeichen
+- [MAINTENANCE] Erstellung mit Extension Builder

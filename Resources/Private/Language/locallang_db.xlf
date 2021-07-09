@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:slavlee_charcount/Resources/Private/Language/locallang_db" date="2021-07-09T20:51:08Z" product-name="slavlee_charcount">
+		<header/>
+		<body>
+			<trans-unit id="tx_slavlee_charcount_pi1.name" resname="tx_slavlee_charcount_pi1.name">
+				<source>Character Counter</source>
+			</trans-unit>
+			<trans-unit id="tx_slavlee_charcount_pi1.description" resname="tx_slavlee_charcount_pi1.description">
+				<source>Display a textarea where user can add text in and this plugin displays the amount of characters.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

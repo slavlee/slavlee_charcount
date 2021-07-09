@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:slavlee_charcount/Resources/Private/Language/locallang_db" date="2021-07-09T20:51:08Z" product-name="slavlee_charcount">
+		<header/>
+		<body>
+			<trans-unit id="plugin.p1.title" resname="plugin.p1.title">
+				<source>Character Counter</source>
+			</trans-unit>
+			<trans-unit id="plugin.p1.counter" resname="plugin.p1.counter">
+				<source>Character count</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
