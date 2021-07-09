@@ -1,3 +1,6 @@
+Version 1.0.1
+- [CHANGE] Counter Klasse auf bg-primary
+
 Version 1.0.0
 - [NEW] Implementierung FrontendPlugin mit Textfeld und Anzeige der Anzahl der Zeichen
 - [MAINTENANCE] Erstellung mit Extension Builder
