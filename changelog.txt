@@ -1,3 +1,6 @@
+Version 1.0.2
+- [NEW] New Counter: Words and Paragraphs
+
 Version 1.0.1
 - [CHANGE] Counter Klasse auf bg-primary
 

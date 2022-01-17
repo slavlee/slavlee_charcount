@@ -6,8 +6,14 @@
 			<trans-unit id="plugin.p1.title" resname="plugin.p1.title">
 				<target>Zeichenzähler</target>
 			</trans-unit>
-			<trans-unit id="plugin.p1.counter" resname="plugin.p1.counter">
+			<trans-unit id="plugin.p1.counter.I.0" resname="plugin.p1.counter.I.0">
 				<target>Anzahl Zeichen</target>
+			</trans-unit>
+			<trans-unit id="plugin.p1.counter.I.1" resname="plugin.p1.counter.I.1">
+				<target>Anzahl Wörter</target>
+			</trans-unit>
+			<trans-unit id="plugin.p1.counter.I.2" resname="plugin.p1.counter.I.2">
+				<target>Anzahl Sätze</target>
 			</trans-unit>
 		</body>
 	</file>

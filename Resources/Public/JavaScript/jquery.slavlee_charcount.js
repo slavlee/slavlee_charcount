@@ -17,7 +17,31 @@
     function init(cObj)
     {
     	$(cObj).find("textarea").on("keyup", function(){
-    		$(cObj).find("." + cObj.opts.classes.counter).text($(this).val().length);
+			let value = $(this).val();
+			let counter = $(cObj).find("." + cObj.opts.classes.counter);
+			
+			if (value != "")
+			{
+				// count chars
+	    		$(counter.get(1)).text(value.split('').length);
+	    		
+	    		// count words
+	    		$(counter.get(2)).text(value.replace(/([A-z]),([A-z])/g, "$1, $2").split(' ').length);
+	    		
+	    		// count paragraphs	    		
+	    		$(counter.get(3)).text(value.split('.').length-1);
+			}else
+			{
+				// count chars
+	    		$(counter.get(1)).text("0");
+	    		
+	    		// count words
+	    		$(counter.get(2)).text("0");
+	    		
+	    		// count paragraphs
+	    		$(counter.get(3)).text("0");	
+			}
+			
     	});
     }
     

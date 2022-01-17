@@ -6,8 +6,14 @@
 			<trans-unit id="plugin.p1.title" resname="plugin.p1.title">
 				<source>Character Counter</source>
 			</trans-unit>
-			<trans-unit id="plugin.p1.counter" resname="plugin.p1.counter">
+			<trans-unit id="plugin.p1.counter.I.0" resname="plugin.p1.counter.I.0">
 				<source>Character count</source>
+			</trans-unit>
+			<trans-unit id="plugin.p1.counter.I.1" resname="plugin.p1.counter.I.1">
+				<source>Word count</source>
+			</trans-unit>
+			<trans-unit id="plugin.p1.counter.I.2" resname="plugin.p1.counter.I.2">
+				<source>Paragraph count</source>
 			</trans-unit>
 		</body>
 	</file>
