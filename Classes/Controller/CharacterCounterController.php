@@ -2,6 +2,8 @@
 declare(strict_types = 1);
 namespace Slavlee\SlavleeCharcount\Controller;
 
+use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
+use Psr\Http\Message\ResponseInterface;
 /***
  *
  * This file is part of the "Slavlee Community Builder" Extension for TYPO3 CMS.
@@ -12,8 +14,7 @@ namespace Slavlee\SlavleeCharcount\Controller;
  *  (c) 2021 Kevin Chileong Lee <info@slavlee.de>, Slavlee
  *
  ***/
-
-class CharacterCounterController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
+class CharacterCounterController extends ActionController
 {	
 	/**************************************************************************
 	 * INJECTIONS - START
@@ -35,8 +36,8 @@ class CharacterCounterController extends \TYPO3\CMS\Extbase\Mvc\Controller\Actio
 	 * Show the character counter
 	 * @return void
 	 */
-	public function showAction()
+	public function showAction(): ResponseInterface
 	{
-		
+		return $this->htmlResponse();
 	}
 }

@@ -1,7 +1,8 @@
 {
     "name": "slavlee/slavlee-charcount",
-    "type": "typo3-cms-extension",
     "description": "This plugin display the amount of characters that you put inside a textarea.",
+    "license": "GPL-2.0-or-later",
+    "type": "typo3-cms-extension",
     "authors": [
         {
             "name": "Kevin Chileong Lee",
@@ -19,6 +20,11 @@
     "autoload-dev": {
         "psr-4": {
             "Slavlee\\SlavleeCharcount\\Tests\\": "Tests"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "slavlee_charcount"
         }
     },
     "replace": {

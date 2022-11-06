@@ -1,17 +1,15 @@
 <?php
-defined('TYPO3_MODE') || die('Access denied.');
+use TYPO3\CMS\Extbase\Utility\ExtensionUtility;
+use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
+defined('TYPO3') || die('Access denied.');
 
 call_user_func(
     function()
     {
-
-        \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
-            'Slavlee.SlavleeCharcount',
+        ExtensionUtility::registerPlugin(
+            'SlavleeCharcount',
             'Pi1',
             'Character Counter'
-        );
-
-        \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile('slavlee_charcount', 'Configuration/TypoScript', 'CharacterCount');
-
+        );    
     }
 );
