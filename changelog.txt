@@ -1,3 +1,7 @@
+Version 2.0.1
+- [CHANGE] Change TYPO3 Version in composer.json
+- [CHANGE] Moved registerPLugin to TCA/Overrides/tt_content.php
+
 Version 2.0.0
 - [BREAK] Drop TYPO3 9 Support
 - [NEW] TYPO3 11 Support
